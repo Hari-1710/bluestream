@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PQD-.#####",
+ "creation": "2025-10-13 12:22:22.424751",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_txli",
+  "amended_from",
+  "client",
+  "item",
+  "project_name",
+  "revision",
+  "column_break_yuip",
+  "date_of_creation",
+  "date_of_submission",
+  "date_of_revision",
+  "date_of_resubmission",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_txli",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PQD and Submittals",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "revision",
+   "fieldtype": "Data",
+   "label": "Revision"
+  },
+  {
+   "fieldname": "column_break_yuip",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_creation",
+   "fieldtype": "Date",
+   "label": "Date of creation"
+  },
+  {
+   "fieldname": "date_of_submission",
+   "fieldtype": "Date",
+   "label": "Date of submission"
+  },
+  {
+   "fieldname": "date_of_revision",
+   "fieldtype": "Date",
+   "label": "Date of revision"
+  },
+  {
+   "fieldname": "date_of_resubmission",
+   "fieldtype": "Date",
+   "label": "Date of resubmission"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nPQD Done\nApproved with comments\nRejected\nUnder Review\nIn Progress\nOn Hold\nSample Swatches Submitted"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-10-13 12:26:45.286121",
+ "modified_by": "Administrator",
+ "module": "Bluestream",
+ "name": "PQD and Submittals",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
