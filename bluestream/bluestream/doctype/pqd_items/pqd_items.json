@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-20 14:30:25.557106",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "items",
+  "date_of_submission",
+  "date_of_revision",
+  "date_of_resubmission"
+ ],
+ "fields": [
+  {
+   "fieldname": "items",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Items",
+   "options": "Item"
+  },
+  {
+   "fieldname": "date_of_submission",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Submission"
+  },
+  {
+   "fieldname": "date_of_revision",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Revision"
+  },
+  {
+   "fieldname": "date_of_resubmission",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Resubmission"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-20 14:31:27.995646",
+ "modified_by": "Administrator",
+ "module": "Bluestream",
+ "name": "PQD Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

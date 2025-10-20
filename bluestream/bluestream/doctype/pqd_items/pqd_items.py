@@ -5,6 +5,5 @@
 from frappe.model.document import Document
 
 
-class PQDandSubmittals(Document):
-    pass
-
+class PQDItems(Document):
+	pass
