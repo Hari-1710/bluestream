@@ -52,8 +52,9 @@
   },
   {
    "fieldname": "revision",
-   "fieldtype": "Data",
-   "label": "Revision"
+   "fieldtype": "Select",
+   "label": "Revision",
+   "options": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
   },
   {
    "fieldname": "column_break_yuip",
@@ -90,7 +91,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-10-20 07:07:58.447461",
+ "modified": "2025-10-20 10:36:02.587227",
  "modified_by": "Administrator",
  "module": "Bluestream",
  "name": "PQD and Submittals",

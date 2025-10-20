@@ -5,6 +5,13 @@ app_description = "Custom app for Bluestream"
 app_email = "hari@gmail.com"
 app_license = "mit"
 
+
+
+# Include js in Quotation doctype
+doctype_js = {
+    "Quotation": "public/js/quotation.js"
+}
+
 # Apps
 # ------------------
 
