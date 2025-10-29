@@ -17,7 +17,7 @@ function create_production_drawing_request(frm) {
     let defaults = {
         quotation: frm.doc.name,
         customer_name: frm.doc.customer_name,
-        project_name: frm.doc.rfq_no_project_name
+        project_details: frm.doc.rfq_no_project_name
     };
 
     // Create new doc
