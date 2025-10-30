@@ -11,6 +11,9 @@ app_license = "mit"
 doctype_js = {
     "Quotation": "public/js/quotation.js"
 }
+override_whitelisted_methods = {
+    "crm_api_integration": "bluestream.bluestream.api.crm_integration.crm_api_integration"
+}
 
 # Apps
 # ------------------
