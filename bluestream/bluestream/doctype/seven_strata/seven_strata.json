@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SS-{YY}-{MM}",
+ "creation": "2025-11-06 14:27:57.603315",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "words_you_own_mindshare",
+  "sandbox_and_brand_promises_section",
+  "whowhere_core_customers",
+  "brand_promises",
+  "brand_promise_guarantee_catalytic_mechanism",
+  "different_activities",
+  "profit_per_x_economic_engine",
+  "column_break_hfjf",
+  "what_products_and_services",
+  "kpis",
+  "one_phrase",
+  "x_factor",
+  "bhag"
+ ],
+ "fields": [
+  {
+   "fieldname": "words_you_own_mindshare",
+   "fieldtype": "Small Text",
+   "label": "Words You Own (Mindshare)"
+  },
+  {
+   "fieldname": "sandbox_and_brand_promises_section",
+   "fieldtype": "Section Break",
+   "label": "Sandbox and Brand Promises"
+  },
+  {
+   "fieldname": "whowhere_core_customers",
+   "fieldtype": "Small Text",
+   "label": "Who/Where (Core Customers)"
+  },
+  {
+   "fieldname": "brand_promises",
+   "fieldtype": "Small Text",
+   "label": "Brand Promises"
+  },
+  {
+   "fieldname": "column_break_hfjf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "what_products_and_services",
+   "fieldtype": "Small Text",
+   "label": "What (Products and Services)"
+  },
+  {
+   "fieldname": "kpis",
+   "fieldtype": "Small Text",
+   "label": "KPIs"
+  },
+  {
+   "fieldname": "brand_promise_guarantee_catalytic_mechanism",
+   "fieldtype": "Small Text",
+   "label": "Brand Promise Guarantee (Catalytic Mechanism)"
+  },
+  {
+   "fieldname": "one_phrase",
+   "fieldtype": "Small Text",
+   "label": "One-PHRASE Strategy (Key to Making Money)"
+  },
+  {
+   "fieldname": "different_activities",
+   "fieldtype": "Small Text",
+   "label": "Differentiating Activities (3-5 How's)"
+  },
+  {
+   "fieldname": "profit_per_x_economic_engine",
+   "fieldtype": "Small Text",
+   "label": "Profit per X (Economic Engine)"
+  },
+  {
+   "fieldname": "x_factor",
+   "fieldtype": "Small Text",
+   "label": "X-Factor (10x - 100x Underlying Advantage)"
+  },
+  {
+   "fieldname": "bhag",
+   "fieldtype": "Small Text",
+   "label": "BHAG* (10-25 Year Goal)"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 14:37:27.350133",
+ "modified_by": "Administrator",
+ "module": "Bluestream",
+ "name": "Seven Strata",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

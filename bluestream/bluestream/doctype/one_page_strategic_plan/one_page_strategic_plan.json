@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:OPSP-{YY}-{MM}",
+ "creation": "2025-11-06 09:50:18.299855",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "people_tab",
+  "core_values_shouldshouldnt",
+  "targets_3_5_years",
+  "actions_support_values_purpose_bhag",
+  "column_break_yhcu",
+  "purpose_why",
+  "goals_1_year_what",
+  "keythrusts_capabilities",
+  "section_break_ndqj",
+  "key_initiatives_annual_priorities_for_2025",
+  "section_break_rzot",
+  "profitx",
+  "bhag",
+  "column_break_cxuw",
+  "brand_promises_kpis",
+  "brand_promises",
+  "section_break_icuj",
+  "strengths",
+  "column_break_owvn",
+  "weaknesses",
+  "process_tab",
+  "actions_qtr_how",
+  "theme_qtrannual",
+  "your_accountability_whowhen",
+  "company_priorities",
+  "section_break_tdzd",
+  "critical_numbers",
+  "section_break_waeg",
+  "opportunities",
+  "column_break_apbq",
+  "threatstrends"
+ ],
+ "fields": [
+  {
+   "fieldname": "core_values_shouldshouldnt",
+   "fieldtype": "Long Text",
+   "label": "CORE VALUES (Should/Should'nt)"
+  },
+  {
+   "fieldname": "targets_3_5_years",
+   "fieldtype": "Text Editor",
+   "label": "TARGETS (3-5 YEARS) (Where)"
+  },
+  {
+   "fieldname": "column_break_yhcu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purpose_why",
+   "fieldtype": "Long Text",
+   "label": "PURPOSE (Why)"
+  },
+  {
+   "fieldname": "goals_1_year_what",
+   "fieldtype": "Text Editor",
+   "label": "GOALS (1 YEAR) (What)"
+  },
+  {
+   "fieldname": "actions_support_values_purpose_bhag",
+   "fieldtype": "Long Text",
+   "label": "Actions (Support Values, Purpose, BHAG)"
+  },
+  {
+   "fieldname": "keythrusts_capabilities",
+   "fieldtype": "Long Text",
+   "label": "Key Thrusts / Capabilities (3-5 Years)"
+  },
+  {
+   "fieldname": "section_break_ndqj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "key_initiatives_annual_priorities_for_2025",
+   "fieldtype": "Long Text",
+   "label": "Key Initiatives (Annual Priorities for 2025)"
+  },
+  {
+   "fieldname": "section_break_rzot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "profitx",
+   "fieldtype": "Small Text",
+   "label": "Profit/X"
+  },
+  {
+   "fieldname": "bhag",
+   "fieldtype": "Small Text",
+   "label": "BHAG"
+  },
+  {
+   "fieldname": "column_break_cxuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "brand_promises_kpis",
+   "fieldtype": "Small Text",
+   "label": "Brand Promises KPIs"
+  },
+  {
+   "fieldname": "brand_promises",
+   "fieldtype": "Small Text",
+   "label": "Brand Promises"
+  },
+  {
+   "fieldname": "section_break_icuj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "strengths",
+   "fieldtype": "Long Text",
+   "label": "Strengths"
+  },
+  {
+   "fieldname": "column_break_owvn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weaknesses",
+   "fieldtype": "Long Text",
+   "label": "Weaknesses"
+  },
+  {
+   "fieldname": "people_tab",
+   "fieldtype": "Tab Break",
+   "label": "People"
+  },
+  {
+   "fieldname": "process_tab",
+   "fieldtype": "Tab Break",
+   "label": "Process"
+  },
+  {
+   "fieldname": "actions_qtr_how",
+   "fieldtype": "Text Editor",
+   "label": "ACTIONS (QTR) (How)"
+  },
+  {
+   "fieldname": "theme_qtrannual",
+   "fieldtype": "Long Text",
+   "label": "THEME (Qtr/Annual)"
+  },
+  {
+   "fieldname": "your_accountability_whowhen",
+   "fieldtype": "Text Editor",
+   "label": "YOUR ACCOUNTABILITY (Who/When)"
+  },
+  {
+   "fieldname": "company_priorities",
+   "fieldtype": "Small Text",
+   "label": "Company Priorities"
+  },
+  {
+   "fieldname": "section_break_tdzd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "critical_numbers",
+   "fieldtype": "Text Editor",
+   "label": "Critical Numbers"
+  },
+  {
+   "fieldname": "section_break_waeg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "opportunities",
+   "fieldtype": "Small Text",
+   "label": "Opportunities"
+  },
+  {
+   "fieldname": "column_break_apbq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "threatstrends",
+   "fieldtype": "Small Text",
+   "label": "Threats/Trends"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 13:01:36.820717",
+ "modified_by": "Administrator",
+ "module": "Bluestream",
+ "name": "One Page Strategic Plan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
