@@ -12,7 +12,15 @@ doctype_js = {
     "Quotation": "public/js/quotation.js"
 }
 override_whitelisted_methods = {
-    "crm_api_integration": "bluestream.bluestream.api.crm_integration.crm_api_integration"
+    "crm_api_integration": "bluestream.bluestream.api.crm_integration.crm_api_integration",
+    "login": "bluestream.bluestream.api.login.customer_login"
+}
+
+doc_events = {
+	"User": {
+		"before_save": "bluestream.bluestream.api.login.before_save_user"
+		
+	}
 }
 
 # Apps

@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name_of_sop",
+ "creation": "2025-11-06 16:23:24.667991",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_sop",
+  "created_on",
+  "responsible_individual",
+  "actioned_by",
+  "responsible_department",
+  "purpose_explaination_and_expected_outcomes_section",
+  "small_text_bsmn"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_sop",
+   "fieldtype": "Data",
+   "label": "Name of SOP",
+   "unique": 1
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Date",
+   "label": "Created On"
+  },
+  {
+   "fieldname": "responsible_individual",
+   "fieldtype": "Data",
+   "label": "Responsible Individual"
+  },
+  {
+   "fieldname": "actioned_by",
+   "fieldtype": "Small Text",
+   "label": "Actioned By"
+  },
+  {
+   "fieldname": "responsible_department",
+   "fieldtype": "Data",
+   "label": "Responsible Department"
+  },
+  {
+   "fieldname": "purpose_explaination_and_expected_outcomes_section",
+   "fieldtype": "Section Break",
+   "label": "Purpose Explaination and Expected Outcomes"
+  },
+  {
+   "fieldname": "small_text_bsmn",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 17:13:34.568294",
+ "modified_by": "Administrator",
+ "module": "Bluestream",
+ "name": "SOP",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

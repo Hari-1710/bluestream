@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "creation": "2025-11-17 09:39:01.774492",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "product_image",
+  "image",
+  "length",
+  "width",
+  "height",
+  "diameter",
+  "material",
+  "quantity",
+  "environmentoutdoorindoor",
+  "installation",
+  "ral_color",
+  "finish_with_type_of_coating",
+  "add_on_details_logo_plates_screen_printing_stickers",
+  "budget"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Item name"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Material"
+  },
+  {
+   "fieldname": "product_image",
+   "fieldtype": "Attach Image",
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Product Image"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Length "
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Width"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Height"
+  },
+  {
+   "fieldname": "diameter",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Diameter"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "environmentoutdoorindoor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Environment(Outdoor/Indoor)"
+  },
+  {
+   "fieldname": "installation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Installation "
+  },
+  {
+   "fieldname": "ral_color",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RAL Color"
+  },
+  {
+   "fieldname": "finish_with_type_of_coating",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Finish with type of coating "
+  },
+  {
+   "fieldname": "add_on_details_logo_plates_screen_printing_stickers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Add on Details (Logo plates, Screen printing, Stickers)"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Budget"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Image",
+   "options": "product_image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-17 10:08:37.137994",
+ "modified_by": "admin@webtreeonline.com",
+ "module": "Bluestream",
+ "name": "Budget Table",
+ "owner": "admin@webtreeonline.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
