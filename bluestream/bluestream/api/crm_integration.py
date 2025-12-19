@@ -32,8 +32,8 @@ def crm_api_integration():
             missing_fields.append("lead_name")
         if not email:
             missing_fields.append("email")
-        if not phone:
-            missing_fields.append("phone")
+        # if not phone:
+        #     missing_fields.append("phone")
 
         if missing_fields:
             frappe.local.response['http_status_code'] = 400
@@ -41,10 +41,12 @@ def crm_api_integration():
                 "status": "error",
                 "message": f"Missing required fields: {', '.join(missing_fields)}."
             }
-
+        
         # --- Prevent duplicate leads ---
         existing_by_email = frappe.db.exists("Lead", {"email_id": email})
-        existing_by_phone = frappe.db.exists("Lead", {"phone": phone})
+         
+        if phone:
+            existing_by_phone = frappe.db.exists("Lead", {"phone": phone})
 
         if existing_by_email or existing_by_phone:
             frappe.local.response['http_status_code'] = 409  # HTTP 409 Conflict
