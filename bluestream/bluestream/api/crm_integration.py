@@ -48,7 +48,8 @@ def crm_api_integration():
         if phone:
             existing_by_phone = frappe.db.exists("Lead", {"phone": phone})
 
-        if existing_by_email or existing_by_phone:
+        # if existing_by_email or existing_by_phone:
+        if existing_by_email:
             frappe.local.response['http_status_code'] = 409  # HTTP 409 Conflict
             return {
                 "status": "error",
