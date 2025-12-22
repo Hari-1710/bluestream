@@ -43,19 +43,19 @@ def crm_api_integration():
             }
         
         # --- Prevent duplicate leads ---
-        existing_by_email = frappe.db.exists("Lead", {"email_id": email})
+        # existing_by_email = frappe.db.exists("Lead", {"email_id": email})
          
         if phone:
             existing_by_phone = frappe.db.exists("Lead", {"phone": phone})
 
         # if existing_by_email or existing_by_phone:
-        if existing_by_email:
-            frappe.local.response['http_status_code'] = 409  # HTTP 409 Conflict
-            return {
-                "status": "error",
-                "message": "Lead already exists with the same email or phone number.",
-                "existing_lead": existing_by_email or existing_by_phone
-            }
+        # if existing_by_email:
+        #     frappe.local.response['http_status_code'] = 409  # HTTP 409 Conflict
+        #     return {
+        #         "status": "error",
+        #         "message": "Lead already exists with the same email or phone number.",
+        #         "existing_lead": existing_by_email or existing_by_phone
+        #     }
 
         # --- Create new Lead ---
         lead_doc = frappe.get_doc({
