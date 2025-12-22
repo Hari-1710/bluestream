@@ -21,7 +21,16 @@ doc_events = {
 		"before_save": "bluestream.bluestream.api.login.before_save_user"
 		
 	}
+    # "Lead": {
+    #     "validate": "bluestream.bluestream.api.lead_overrides.disable_email_unique"
+    # }
 }
+# your_app/hooks.py
+
+override_doctype_class = {
+    "Lead": "bluestream.bluestream.overrides.lead_overrides.CustomLead"
+}
+
 
 # Apps
 # ------------------
