@@ -8,6 +8,7 @@
  "field_order": [
   "section_break_txli",
   "amended_from",
+  "custom_quotation",
   "client",
   "project_name",
   "revision",
@@ -73,14 +74,20 @@
    "fieldtype": "Table",
    "label": "Items",
    "options": "PQD Items"
+  },
+  {
+   "fieldname": "custom_quotation",
+   "fieldtype": "Link",
+   "label": "Quotation",
+   "options": "Quotation"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-10-20 14:36:46.544588",
- "modified_by": "Administrator",
+ "modified": "2025-12-26 09:15:05.238841",
+ "modified_by": "admin@webtreeonline.com",
  "module": "Bluestream",
  "name": "PQD and Submittals",
  "naming_rule": "Expression (old style)",

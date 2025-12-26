@@ -46,7 +46,7 @@ function create_production_drawing_request(frm) {
 function create_pqd_and_submittals(frm) {
     // Prepare default values
     let defaults = {
-        quotation: frm.doc.name,
+        custom_quotation: frm.doc.name,
         client: frm.doc.customer_name,
         project_name: frm.doc.rfq_no_project_name
     };
